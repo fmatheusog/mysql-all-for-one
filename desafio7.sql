@@ -1,1 +1,1 @@
-select * from products order by id limit 40, 5
+(select * from products limit 40, 5) order by id DESC
